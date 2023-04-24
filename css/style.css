@@ -1,0 +1,50 @@
+/* GLOBALES */
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.top {
+    height: 18rem;
+    background-color: gray;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: relative;
+}
+
+.logo {
+    height: 5rem;
+    width: 9rem;
+    position: absolute;
+    background-color: gray;
+    top: 10px;
+    right: 10px;
+    z-index: 1;
+}
+
+.top__text {
+    background-color: red;
+    padding: 10rem 0;
+}
+
+.top__img {
+    background-color: blue;
+}
+
+.top__desc {
+    height: 10rem;
+    background-color: gainsboro;
+}
